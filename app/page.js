@@ -177,7 +177,7 @@ export default function Home() {
                 <div className="page-width">
                     <Reveal className="contact-heading"><p className="eyebrow">GROW SOMETHING GOOD WITH US</p><h2>Let's build a stronger food future.</h2><p>Partner with ISGO Farms to grow opportunity, conserve local seeds and support a thriving community.</p></Reveal>
                     <div className="contact-grid">
-                        <Reveal className="contact-details"><span className="contact-details__mark" aria-hidden="true">✳</span><p className="eyebrow">VISIT THE PROJECT</p><h3>Mbirichi, Ohaji/Egbema LGA, Imo State, Nigeria</h3><a href="mailto:info@isgofarms.com">info@isgofarms.com <span aria-hidden="true">↗</span></a><p className="contact-note">Please confirm the contact email before publishing.</p></Reveal>
+                        <Reveal className="contact-details"><span className="contact-details__mark" aria-hidden="true"></span><p className="eyebrow">VISIT THE PROJECT</p><h3>Mbirichi, Ohaji/Egbema LGA, Imo State, Nigeria</h3><a href="mailto:info@isgofarms.com">info@isgofarms.com <span aria-hidden="true">↗</span></a><p className="contact-note">Please confirm the contact email before publishing.</p></Reveal>
                         <Reveal className="contact-form" delay={0.08}><Pledge /></Reveal>
                     </div>
                 </div>

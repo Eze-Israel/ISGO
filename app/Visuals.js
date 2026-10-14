@@ -134,7 +134,7 @@ export default function HeroCarousel() {
         </AnimatePresence>
       </div>
       <div className="hero__footer">
-        <p><span className="hero__sun" aria-hidden="true">✳</span> Agriculture. People. Prosperity.</p>
+        <p><span className="hero__sun" aria-hidden="true"></span> Agriculture. People. Prosperity.</p>
         <div className="hero__controls" aria-label="Choose a featured story">
           <span className="hero__count">0{active + 1} <span>/ 0{slides.length}</span></span>
           {slides.map((item, index) => (

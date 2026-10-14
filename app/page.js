@@ -41,6 +41,28 @@ export default function Home() {
 
             <div id="top"><HeroCarousel /></div>
 
+            <section className="grant-appeal" aria-labelledby="grant-appeal-title">
+                <div className="page-width grant-appeal__inner">
+                    <Reveal className="grant-appeal__copy">
+                        <p className="eyebrow">A PROPOSED PROJECT, READY FOR PARTNERS</p>
+                        <h2 id="grant-appeal-title">Help bring the ISGO Farms plan to life.</h2>
+                        <p>We are seeking grant funding and strategic support to establish an integrated farm in Mbirichi. Your partnership can help build essential infrastructure, launch poultry and fish production, and create lasting opportunities for local people.</p>
+                        <a className="button button--gold" href="#contact">Partner with us<span aria-hidden="true"> ↗</span></a>
+                    </Reveal>
+                    <div className="grant-appeal__details">
+                        <Reveal className="grant-appeal__amount" delay={0.12}>
+                            <span>PHASE ONE GRANT SOUGHT</span>
+                            <strong>₦2,500,000</strong>
+                            <small>Part of a ₦4,200,000 project, including in-kind contribution</small>
+                        </Reveal>
+                        <div className="grant-appeal__targets">
+                            <Reveal delay={0.2}><strong>12 months</strong><span>to establish phase one</span></Reveal>
+                            <Reveal delay={0.28}><strong>4–10 local jobs</strong><span>targeted as the farm develops</span></Reveal>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="facts-bar" aria-label="Project overview">
                 <div className="page-width facts-bar__inner">
                     {[["01 ha", "Fenced farmland"], ["4–10", "Local jobs targeted"], ["12 months", "Phase one"], ["₦2.5m", "Grant requested"]].map(([value, label]) => (

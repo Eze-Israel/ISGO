@@ -31,6 +31,42 @@ const slides = [
     action: "Discover our seed work",
     href: "#seeds",
   },
+  {
+    image: "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=2200&q=85",
+    alt: "Chickens in a farm setting",
+    eyebrow: "POULTRY FOR FOOD AND LIVELIHOODS",
+    title: "Building a healthy, productive poultry unit.",
+    description: "The first phase will establish poultry housing and care practices for egg and meat production.",
+    action: "Explore the project plan",
+    href: "#enterprises",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1541441056316-443fff347c40?auto=format&fit=crop&w=2200&q=85",
+    alt: "Fish swimming in freshwater",
+    eyebrow: "FISH FARMING, PLANNED WITH CARE",
+    title: "A fish pond designed for responsible production.",
+    description: "ISGO Farms plans to raise tilapia with careful attention to water, feed and pond management.",
+    action: "See the farm plan",
+    href: "#farm",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1560819400-434c188f63ef?auto=format&fit=crop&w=2200&q=85",
+    alt: "Brown and white goats",
+    eyebrow: "LIVESTOCK IN THE NEXT PHASE",
+    title: "Making room for a future goat unit.",
+    description: "A later phase will add goats as the farm develops its infrastructure and production capacity.",
+    action: "View our objectives",
+    href: "#objectives",
+  },
+  {
+    image: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=2200&q=85",
+    alt: "Piglets being raised on a farm",
+    eyebrow: "PIGGERY IN THE NEXT PHASE",
+    title: "Planning responsible livestock expansion.",
+    description: "Pigs are part of the longer-term plan, introduced when the farm is ready to support their care and management.",
+    action: "View our objectives",
+    href: "#objectives",
+  },
 ];
 
 export function Reveal({ children, className = "", delay = 0 }) {
